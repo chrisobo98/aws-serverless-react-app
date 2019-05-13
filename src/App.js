@@ -1,6 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Amplify from 'aws-amplify';
+import aws_exports from './aws-exports';
+
+Amplify.configure(aws_exports);
 
 function App() {
   return (
@@ -8,15 +12,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          My First React App
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/chrisobo98"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Visit Github
         </a>
       </header>
     </div>
