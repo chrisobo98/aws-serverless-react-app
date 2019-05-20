@@ -23,6 +23,10 @@
   color: #61dafb;
 }
 
+.ui.page.modals.transition.visible {
+  display: flex !important;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
